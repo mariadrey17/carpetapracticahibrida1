@@ -1,0 +1,165 @@
+
+/*el comienzo del inicio y códigos genéricos*/
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color:rgba(23, 21, 21, 0.875);
+}
+@media  screen and (max-width :400px)
+    
+   { body {
+    background-color:rgb(160, 68, 83) ;
+     }
+
+   
+    }
+
+/*arranco con grilla desktop first e muestras*/
+
+
+
+
+
+
+        
+
+
+ header {
+background-image:url(../img/fondo.jpg) ;
+background-size: cover;
+background-attachment:fixed;
+background-repeat:no-repeat ;
+justify-content: center;
+
+}
+
+
+
+
+h1 {
+    color:blanchedalmond;
+
+margin-top :5rem; 
+margin-bottom:5rem ;
+display:flex;
+justify-content: center;
+
+}
+
+
+
+
+h2 {
+    color:rgb(222, 170, 179);
+    display:flex;
+    justify-content: center;
+   
+}
+
+h3 {
+    color:rgb(222, 170, 179); ;
+}
+
+p {
+    color: blanchedalmond;
+}
+
+
+.menu { 
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-right:2.5rem;
+   text-decoration: none;
+   list-style: none;
+    
+    }
+    
+    li a {
+        color:rgb(243, 208, 214);
+       text-decoration: none;
+       list-style: none
+       
+       
+    }
+
+    @media screen and (max-width :400px) {
+        
+    .navegacion {
+    display: flex;
+    flex-direction:column;
+   }
+    }
+    
+
+    .video-escuela {
+        width:1000px ;
+        height:600px;
+       
+    }
+    @media screen and (max-width :400px) {
+        .video-escuela {
+            width:350px;
+            height:330px;
+        }
+        
+     }
+
+   
+.fuente-media {
+
+    font-size: 30px;
+    color:rgb(243, 208, 214) ;
+
+   
+  
+    
+    }
+ 
+    #escribe-formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #sobre-escuela {
+        background-image: linear-gradient(to left , pink,grey);
+    }
+ 
+
+   
+      /*muestras empieza*/
+
+    
+
+ .caja-tienda {
+  border:solid 2px rgb(245, 245, 245)
+  
+}
+.caja-tienda {
+  
+ 
+  background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+}
+ 
+@media screen  and (max-width:460px) 
+{
+.tienda {
+  width:500px ;
+  height: 1600px ;
+  margin-top:10px ;
+}
+
+
+.card-muestra{
+  width:250px ;
+  height:500px;
+margin-bottom:50px ;
+
+}
+
+}
