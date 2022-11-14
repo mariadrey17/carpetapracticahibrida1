@@ -131,6 +131,19 @@ p {
     }
  
 
+     /*empieza clases prueba*/
+     @media screen and (max-width:460px)
+     {
+        .foto-clase {
+            width: 320px ;
+          }
+        }
+        table {
+            display:flex;
+            flex-wrap:nowrap;
+        }
+     }
+
    
       /*muestras empieza*/
 
@@ -144,6 +157,13 @@ p {
   
  
   background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+}
+
+.card-muestra {
+    display: flex;
+     flex-direction:column;
+    justify-content: center;
+     align-items: center;
 }
  
 @media screen  and (max-width:460px) 
@@ -159,6 +179,7 @@ p {
   width:250px ;
   height:500px;
 margin-bottom:50px ;
+
 
 }
 
