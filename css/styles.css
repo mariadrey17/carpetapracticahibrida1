@@ -3,6 +3,7 @@
 * {
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-color:rgba(23, 21, 21, 0.875);
@@ -149,30 +150,11 @@ p {
 
     
 
- .caja-tienda {
-  border:solid 2px rgb(245, 245, 245)
-  
-}
-.caja-tienda {
-  
  
-  background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
-}
 
-.card-muestra {
-    display: flex;
-     flex-direction:column;
-    justify-content: center;
-     align-items: center;
-}
+
+  
  
-@media screen  and (max-width:460px) 
-{
-.tienda {
-  width:500px ;
-  height: 1600px ;
-  margin-top:10px ;
-}
 
 
 .card-muestra{
@@ -188,4 +170,61 @@ margin-bottom:50px ;
 .video-muestra{
     width: 337px;
 }
+
+
+
+
+
+
+.tienda {
+    
+    background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+    border:solid 2px rgb(245, 245, 245)
+    
 }
+
+.footer 
+ { 
+    
+    background-color: rgb(215, 106, 236);
+
+    height:350px ;
+ }
+
+ .caja-tienda {
+    border:solid 2px rgb(245, 245, 245)
+    
+  }
+  .caja-tienda {
+    
+   
+    background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+  }
+/*muestras dispositivos medianos */
+  
+@media screen and (max-width :768px) {
+    .galeria {
+    
+       width:348px;
+     
+   
+     }
+
+}
+
+
+/*media querie para dispositivos pequeños muestras  */
+ 
+ /*tienda*/
+ @media screen and (max-width: 460px) {
+
+ 
+    .tienda {
+      width:318px ;
+      
+    }
+    .card-muestra{
+      width:181px ;
+      }
+  
+  }
