@@ -133,17 +133,26 @@ p {
  
 
      /*empieza clases prueba*/
+    
+      
+  
+     .container-table div {
+        border: solid 0.50px rgb(139, 133, 123);
+     }
+
      @media screen and (max-width:460px)
      {
         .foto-clase {
             width: 320px ;
           }
+    
+
+
         
-        table {
-            display:flex;
-            flex-wrap:nowrap;
-        }
-     }
+        
+    
+  
+}
 
    
       /*muestras empieza*/
